@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="">
+    <list default="true" id="beb46df3-d6c9-4b49-a68d-01a00407b73a" name="Changes" comment="new commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/pages/RubberDucksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.LoginTest.unsuccessfulLoginTest (1)">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chromeWeb" />
       <extension name="coverage">
@@ -57,24 +52,6 @@
       <option name="PACKAGE_NAME" value="staticPO.tests" />
       <option name="MAIN_CLASS_NAME" value="staticPO.tests.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.successfulLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="chromeWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="staticPO.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="staticPO.tests" />
-      <option name="MAIN_CLASS_NAME" value="staticPO.tests.LoginTest" />
-      <option name="METHOD_NAME" value="successfulLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -116,6 +93,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RubberDucksTest.priceOfTheFirstDuckOnDatePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chromeWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticPO.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="staticPO.tests" />
+      <option name="MAIN_CLASS_NAME" value="staticPO.tests.RubberDucksTest" />
+      <option name="METHOD_NAME" value="priceOfTheFirstDuckOnDatePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RubberDucksTest.priceOfTheFirstDuckOnNamePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="chromeWeb" />
       <extension name="coverage">
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.unsuccessfulLoginTest (1)" />
+        <item itemvalue="TestNG.RubberDucksTest.priceOfTheFirstDuckOnDatePage" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest.priceOfTheFirstDuckOnNamePage" />
         <item itemvalue="TestNG.RubberDucksTest (1)" />
-        <item itemvalue="TestNG.LoginTest.unsuccessfulLoginTest (1)" />
-        <item itemvalue="TestNG.LoginTest.successfulLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +148,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680987013369</updated>
     </task>
+    <task id="LOCAL-00001" summary="new commit">
+      <created>1681147242802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681147242802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,13 +169,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/staticPO/tests/LoginTest.java</url>
-          <line>25</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/staticPO/tests/RubberDucksTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
